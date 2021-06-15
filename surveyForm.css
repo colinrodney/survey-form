@@ -1,0 +1,84 @@
+/* remove browser default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+body {
+  background: linear-gradient(rgba(26, 38, 63, 0.5), rgb(26, 38, 63)),
+    url(images/AT-drum-major.jpg) no-repeat center center/cover fixed;
+}
+
+body#bootstrap-override {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  background-color: #1b5369;
+  color: white;
+}
+
+div.form-group {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.commentBox > textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+div#radioButtonlabel,
+.radioButtons {
+  margin-top: 20px;
+}
+
+div.page-header {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div.page-header span {
+  color: gold;
+}
+
+.commentHeader {
+  text-align: center;
+}
+
+div#chkBox_header > label {
+  margin-top: 20px;
+}
+
+div.radioButtons,
+.textComments {
+  margin-top: 45px;
+}
+
+div.submitButton {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.btn {
+  width: 100%;
+}
+
+#validationLogo {
+  /* border: 1px dotted red; */
+  width: 10vw;
+  margin: 25px auto;
+}
+
+div.form-group > label#dropdownMenu2 {
+  margin-top: 40px;
+}
